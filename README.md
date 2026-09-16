@@ -1,0 +1,1 @@
+FastSMS real backend starter. The D1 binding must be named DB and point to fastsms-db. Run schema.sql in the fastsms-db D1 SQL console before testing registration. Then deploy this package to the same FastSMS project. This adds real server-side registration, login, sessions and wallet balance fields; payments, supplier APIs and admin tools are future stages.

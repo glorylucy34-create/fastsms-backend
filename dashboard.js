@@ -1,0 +1,1 @@
+fetch('/api/me').then(r=>r.ok?r.json():Promise.reject()).then(d=>welcome.textContent='Welcome, '+d.user.name).catch(()=>location.href='/login.html');logout.onclick=async()=>{await fetch('/api/logout',{method:'POST'});location.href='/login.html'}
